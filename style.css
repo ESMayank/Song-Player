@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    background-color: #283149;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+ 
+  
+  
+  
+  .set {
+    margin: 10% auto;
+    
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+ .w {
+    background: url('https://2.bp.blogspot.com/-LXDCEw0Srss/VxJ1ATRUW2I/AAAAAAAArDM/jkNjxlsZDBwwGpE7e2FFKe3Hzo8JeUQiQCLcB/s1600/festivalforu.blogspot.com%2B4.jpg') no-repeat center center/cover;
+    content: "";
+    position: relative;
+    opacity: 1;
+    }
+.a {
+    background: url('https://i.pinimg.com/originals/57/54/a9/5754a920ea3a0549794c7bdec45d286d.jpg') no-repeat center center/cover;
+    content: "";
+    position: relative;
+    opacity: 1;
+}
+.s {
+    background: url('https://th.bing.com/th/id/OIP.iYTeIbhsiYmirnI6dC6evQAAAA?pid=ImgDet&rs=1') no-repeat center center/cover;
+    content: "";
+    position: relative;
+    opacity: 1;
+}
+.d{
+    background: url('https://th.bing.com/th/id/OIP.BThJdSaOxd6nAPcOco0Q0gHaJ3?pid=ImgDet&rs=1') no-repeat center center/cover;
+    content: "";
+    position: relative;
+    opacity: 1;
+}
+.j {
+    background: url('https://i.pinimg.com/originals/9a/48/df/9a48df8218e98ab53cea0a47ba296d49.jpg') no-repeat center center/cover;
+    content: "";
+    position: relative;
+    opacity: 1;
+}
+
+#pauseButton {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#pauseButton:hover {
+  background-color: #c0392b;
+}
